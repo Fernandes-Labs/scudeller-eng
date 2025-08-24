@@ -1,3 +1,5 @@
+import { ContactForm } from "@/components/forms/ContactForm";
+
 export default function Contato() {
     return (
         <div>
@@ -5,7 +7,7 @@ export default function Contato() {
             <p>Telefone</p>
             <p>Email</p>
             <p>WhatsApp</p>
-            <p>Formulário de Contato</p>
+            <ContactForm />
         </div>
     )
 }
