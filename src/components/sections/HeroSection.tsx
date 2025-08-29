@@ -14,12 +14,12 @@ export default function HeroSection() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="flex flex-col flex-1 gap-4 px-8 md:px-32 z-10 text-light-gray">
-                <div className="flex flex-col flex-1 gap-4 px-6 md:px-16 z-10 text-light-gray text-center lg:text-left pb-32 pt-0 lg:pb-0 lg:pt-32">
-                    <h1 className="text-4xl md:text-5xl 2xl:text-7xl font-bold">
+                className="flex flex-col flex-1 gap-4 md:px-32 z-10 text-light-gray">
+                <div className="flex flex-col flex-1 gap-4 md:px-16 z-10 text-light-gray text-center lg:text-left pb-60 pt-0 lg:pb-0 lg:pt-32">
+                    <h1 className="text-3xl md:text-5xl 2xl:text-7xl font-bold">
                         Transformamos Desafios em Soluções Inovadoras e Sustentáveis
                     </h1>
-                    <h3 className="text-xl md:text-2xl 2xl:text-3xl font-semibold">
+                    <h3 className="text-lg md:text-2xl 2xl:text-3xl font-semibold">
                         Projetos inteligentes, consultoria estratégica e gestão de obras com precisão, exclusividade e compromisso socioambiental.
                     </h3>
                     <Button

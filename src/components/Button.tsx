@@ -21,7 +21,7 @@ export function Button({ id, url, text, cssBlock, submitForm = false, externalLi
             type={submitForm ? 'submit' : 'button'}
             disabled={disabled}
             target={externalLink ? '_blank' : ''}
-            className={`text-center text-white bg-orange px-6 py-3 rounded-full hover:bg-blue hover:cursor-pointer transition ${cssBlock}`}>
+            className={`text-center text-white bg-blue px-6 py-3 rounded-full hover:bg-gray-dark hover:cursor-pointer transition ${cssBlock}`}>
             <span className={`text-white font-semibold`}>
                 {text}
             </span>
