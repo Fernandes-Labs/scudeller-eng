@@ -15,7 +15,7 @@ export function SimpleCard({ item }: SimpleCardProps) {
                 visible: { opacity: 1, y: 0 },
             }}
             transition={{ duration: 0.5 }}
-            className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+            className="flex flex-col w-full min-w-[300px] max-w-[300px] lg:min-w-[400px] mx-auto bg-gray-light p-6 rounded-xl shadow hover:shadow-lg transition"
         >
             <div className="flex flex-col gap-4">
                 <div>
