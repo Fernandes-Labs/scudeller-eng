@@ -17,7 +17,7 @@ const timeline: TimelineItem[] = [
 
 export function TimelineSection() {
     return (
-        <div className="relative border-l-4 rounded border-blue pl-6 space-y-10">
+        <div className="relative border-l-4 rounded border-gray-dark pl-6 space-y-10">
             {timeline.map((item, index) => (
                 <motion.div
                     key={index}
@@ -27,10 +27,10 @@ export function TimelineSection() {
                     className="relative"
                 >
                     {/* Bolinha da timeline */}
-                    <span className="absolute -left-[14px] pt-1 w-6 h-6 rounded-full bg-orange border-4 border-white shadow" />
+                    <span className="absolute -left-[14px] pt-1 w-6 h-6 rounded-full bg-blue border-4 border-white shadow" />
 
                     {/* Conteúdo do marco */}
-                    <div className="bg-light-gray p-4 rounded shadow">
+                    <div className="bg-light-gray px-8 py-4 rounded shadow">
                         <h3 className="text-xl md:text-2xl font-semibold text-dark-gray">
                             {item.year}
                         </h3>
