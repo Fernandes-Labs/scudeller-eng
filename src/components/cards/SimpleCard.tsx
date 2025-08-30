@@ -22,8 +22,8 @@ export function SimpleCard({ item }: SimpleCardProps) {
                     <div className="text-4xl mb-2">{item.emoji}</div>
                 </div>
                 <div className="flex flex-col gap-2">
-                    <h4 className="font-bold text-blue">{item.titulo}</h4>
-                    <p className="text-sm text-gray-dark">{item.descricao}</p>
+                    <h4 className="font-bold text-blue text-2xl lg:text-3xl">{item.titulo}</h4>
+                    <p className="text-sm text-gray-dark lg:text-lg">{item.descricao}</p>
                 </div>
             </div>
         </motion.div>
