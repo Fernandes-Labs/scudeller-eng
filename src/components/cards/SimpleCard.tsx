@@ -1,6 +1,7 @@
 'use client'
 
 import {motion} from "motion/react";
+import { SimpleCardInfo } from "@/models/simple-card-info";
 
 export interface SimpleCardProps {
     item: SimpleCardInfo;
