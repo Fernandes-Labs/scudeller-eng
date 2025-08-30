@@ -2,6 +2,7 @@
 
 import { SimpleCard } from "@/components/cards/SimpleCard";
 import { ResponsiveGrid } from "@/components/ResponsiveGrid";
+import { SimpleCardInfo } from "@/models/simple-card-info";
 
 export function PilaresSection() {
     const pilares: SimpleCardInfo[] = [
