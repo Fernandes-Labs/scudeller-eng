@@ -1,7 +1,8 @@
 'use client'
 
 import { motion } from "motion/react";
-import {SimpleCard} from "@/components/cards/SimpleCard";
+import { SimpleCard } from "@/components/cards/SimpleCard";
+import { SimpleCardInfo } from "@/models/simple-card-info";
 
 export function MissaoVisaoValoresSection() {
     const cardInfos: SimpleCardInfo[] = [
