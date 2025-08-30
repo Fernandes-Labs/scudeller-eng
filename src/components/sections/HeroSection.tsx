@@ -9,7 +9,7 @@ export default function HeroSection() {
     return (
         // <section className="relative w-full h-screen bg-[url('/banner.avif')] bg-cover bg-center flex items-end lg:items-center">
         <section className="relative w-full h-screen bg-cover bg-center flex items-end lg:items-center">
-            <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
+            <div className="absolute inset-0 bg-white bg-opacity-40 z-0" />
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
