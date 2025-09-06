@@ -18,7 +18,7 @@ export function IconButton({ emoji, url, text, cssBlock, submitForm = false, ext
             rel={externalLink ? 'noopener noreferrer' : ''}
             type={submitForm ? 'submit' : 'button'}
             target={externalLink ? '_blank' : ''}
-            className={`flex gap-4 text-center text-white px-4 py-2 lg:px-6 lg:py-3 rounded-full hover:cursor-pointer transition ${cssBlock}`}>
+            className={`flex gap-4 text-center text-white px-4 py-2 items-center lg:px-6 lg:py-3 rounded-full hover:cursor-pointer transition ${cssBlock}`}>
                 <p className="size-6">{emoji}</p>
                 <span className={`text-white font-semibold text-sm lg:text-normal`}>
                     {text}
