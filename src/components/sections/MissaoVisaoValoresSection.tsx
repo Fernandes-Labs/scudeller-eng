@@ -13,7 +13,7 @@ export function MissaoVisaoValoresSection() {
 
     return (
         <motion.section
-            className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-6 lg:px-4"
+            className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-3 gap-6 lg:px-4"
             initial="hidden"
             whileInView="visible"
             variants={{
