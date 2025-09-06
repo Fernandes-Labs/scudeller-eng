@@ -9,15 +9,8 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
 
                 <div className="flex flex-col gap-2 text-normal text-center md:text-left">
-                    <p>📞 Telefone</p>
-                    <a href={`mailto:${Links.EMAIL_CONTATO}`}>✉️ {Links.EMAIL_CONTATO}</a>
-                    <p>📍 Endereço?</p>
-                    {/*<div className="flex flex-col gap-2 lg:flex-row">*/}
-                    {/*    <p className="hidden lg:flex">&emsp;&nbsp;</p>*/}
-                    {/*    <p>Jardim Samambaia</p>*/}
-                    {/*    <p className="hidden lg:flex">-</p>*/}
-                    {/*    <p>Praia Grande, São Paulo</p>*/}
-                    {/*</div>*/}
+                    <a href={`https://api.whatsapp.com/send?phone=${Links.WHATSAPP_SANITIZED_CONTATO}`} target="_blank">📞 {Links.WHATSAPP_CONTATO}</a>
+                    <a href={`mailto:${Links.EMAIL_CONTATO}`} target="_blank">✉️ {Links.EMAIL_CONTATO}</a>
                 </div>
 
                 <div className="flex gap-6 lg:gap-8">
