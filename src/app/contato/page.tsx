@@ -1,5 +1,6 @@
 import { ContactForm } from "@/components/forms/ContactForm";
 import {IconButton} from "@/components/IconButton";
+import {Links} from "@/enums/links";
 
 export default function Contato() {
     return (
@@ -10,9 +11,8 @@ export default function Contato() {
             </div>
             <ContactForm />
             <div className="flex flex-col lg:flex-row justify-center py-4 gap-4 lg:gap-10 mx-auto">
-                <IconButton cssBlock="bg-blue hover:bg-gray-dark" emoji="📞" text="Telefone" />
-                <IconButton cssBlock="bg-blue hover:bg-gray-dark" emoji="✉️" text="E-mail" />
-                <IconButton cssBlock="bg-blue hover:bg-gray-dark" emoji="💚" text="WhatsApp" />
+                <IconButton cssBlock="bg-blue hover:bg-gray-dark" emoji="📞" text="Telefone" externalLink url={`tel:${Links.WHATSAPP_SANITIZED}`} />
+                <IconButton cssBlock="bg-blue hover:bg-gray-dark" emoji="💚" text="WhatsApp" externalLink url={Links.WHATSAPP_URL_CONTATO} />
             </div>
         </div>
     )
